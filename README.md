@@ -38,12 +38,11 @@ text/ecmascript
 application/ecmascript
 application/javascript
 
- *** MIME type also known as media type.
+  MIME type also known as media type.
 
 Q. Difference between {Componenet} vs {<Componenet/>} vs {<Componenet> </Componenet>} in react?
 
 -> {Component} is just a basic react element eg = var component=<h1>hello</h1> . we can use this to render by using {Component}. 
-
-	{ <Component/> } is self closed component in react.  
-	{<Componenet> </Componenet>}  is same as previous However syntax is different and If we have Child component then this has to be used.
-								The value we pass in between this, we can access this by props.children.
+   { <Component/> } is self closed component in react.  
+  {<Componenet> </Componenet>}  is same as previous However syntax is different and If we have Child component then this has to be used.
+  The value we pass in between this, we can access this by props.children.
